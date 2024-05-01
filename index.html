@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <!-- tailwindcss link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- TOP SECTION -->
+    <section class="font-[poppins] lg:mt-0 m-2 bg-green-600 text-white">
+        <div class="flex flex-col space-y-2 md:flex-row lg:justify-between py-4 lg:max-w-5xl  lg:mx-auto">
+            <div class="flex flex-col  md:flex-row lg:gap-8 items-center">
+                <div class="flex">
+                    <i class="fa-solid fa-location-pin-lock"></i>
+                    <h3 class="ml-2">88 Road Broklyn Golden Street. New York</h3>
+                </div>
+                <div class="flex ml-2 items-center">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4 class="ml-2">support@agrios.com</h4>
+                </div>
+            </div>
+            <div class="lg:space-x-2 mx-auto">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </section>
+    <header>
+        <nav>
+            <div class="navbar max-w-5xl mx-auto">
+                <div class="navbar-start">
+                    <img class="lg:w-36 w-28" src="images/Link - logo → logo@2x.webp.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="gap-5 menu-horizontal px-1">
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">Home</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">About</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">Services</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">Projects</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">News</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">Shop</a></li>
+                        <li><a class="hover:underline hover:underline-offset-8 hover:uppercase">Contact</a></li>
+                    </ul>
+                    <div class="ml-20 border-l px-6">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown dropdown-left">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content  mt-10 z-[1] p-2 shadow bg-base-100 rounded-box w-44">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Projects</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="p-2 lg:p-0">
+        <!-- HEADER SECTION START -->
+        <section class="relative">
+            <div class="relative flex">
+                <img class="h-[300px] md:h-full" src="images/div.elementor-repeater-item-e19a52a.png" alt="">
+                <div class="absolute lg:top-[30%] top-10 left-4 lg:left-[13%] text-white space-y-2">
+                    <h3 class="lg:text-5xl text-3xl font-bold"><span class="italic text-[#EEC044]">Agriculture</span>
+                    </h3>
+                    <p class="lg:text-5xl text-3xl font-bold">& Organic </p>
+                    <p class="lg:text-5xl text-3xl font-bold">Market</p>
+                    <button class="bg-[#4BAF47] text-white py-2 px-4 rounded">Show Now</button>
+                </div>
+                <div class="absolute lg:top-[35%] right-2 top-[18%] lg:right-[26%]">
+                    <img class="w-14" src="images/div.arrow (1).png" alt="">
+                    <img class="w-14 mt-2" src="images/div.arrow.png" alt="">
+                </div>
+            </div>
+            <!-- Return Policy -->
+            <section class="max-w-5xl mx-auto absolute lg:top-[90%] lg:right-36">
+                <div
+                    class="bg-white shadow-2xl p-8 lg:w-full md:w-[751px] md:gap-10 rounded grid grid-cols-1 md:grid-cols-3 items-center lg:grid-cols-3">
+                    <div class="flex items-center gap-4 border-r">
+                        <img src="images/Icon (6).png" alt="">
+                        <div>
+                            <h2 class="md:text-2xl font-bold">Return Policy</h2>
+                            <p class="text-[#878680]">Money Back Guarantee</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 border-r px-3">
+                        <img src="images/Icon (7).png" alt="">
+                        <div>
+                            <h2 class="lg:text-2xl font-bold">Free Shipping</h2>
+                            <p class="text-[#878680]">On All Orders Over $45.00</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img src="images/Icon (8).png" alt="">
+                        <div>
+                            <h2 class="lg:text-2xl font-bold">Store Locator</h2>
+                            <p class="text-[#878680]">Find Your Nearest Store</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Recently Added -->
+        <section class="lg:mt-32 md:mt-48 mt-[100%] max-w-5xl mx-auto">
+            <div class="text-center">
+                <h3 class="text-[#EEC044] italic">Recently Added</h3>
+                <p class="text-3xl font-bold">Latest Products</p>
+            </div>
+            <div class="grid grid-cols-1 md:gap-2 md:grid-cols-3 lg:grid-cols-3">
+                <!-- CARD ONE -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → onions.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Onions</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$20.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+                <!-- CARD TWO -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → carrot.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Carrot</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$50.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+                <!-- CARD THREE -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → tomato.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Tomato</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$50.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+                <!-- CARD FIVE -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → red-grapes.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Red Grapes</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$100.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+                <!-- CARD FIVE -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → garlic.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Garlic</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$20.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+                <!-- CARD SIX -->
+                <div class="lg:w-[300px] text-center mt-10">
+                    <img class="rounded" src="images/Link → lettuce.jpg.png" alt="">
+                    <h3 class="text-xl font-bold mt-3">Lettuce</h3>
+                    <p class="text-x font-semibold text-[#4BAF47]">$30.00</p>
+                    <p class="text-[#EEC044] italic text-xl font-bold">s s s s s</p>
+                </div>
+            </div>
+        </section>
+        <!-- CARD TWO  -->
+        <section class="lg:mt-52">
+            <div class="relative">
+                <div>
+                    <img src="images/section 03.png" alt="">
+                </div>
+                <div class="flex flex-col mt-2 md:flex-row absolute lg:-top-40 lg:gap-7 gap-2 lg:left-[18%]">
+                    <img class="lg:w-[400px] md:w-[372px]" src="images/1-card.png" alt="">
+                    <img class="lg:w-[400px] md:w-[372px]" src="images/2-card.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Special Offers -->
+        <section class="lg:mt-10 mt-[116%] md:mt-[34%] max-w-5xl mx-auto">
+            <div class="text-center">
+                <h3 class="text-[#EEC044] italic text-x font-bold">Special Offers</h3>
+                <p class="text-3xl font-bold">Today's Hot Deal</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-10">
+                <!-- CARD ONE -->
+                <div>
+                    <img class="md:w-[220px] rounded" src="images/francesca-hotchin-p5EiqkBYIEE-unsplash.jpg" alt="">
+                    <div class="flex mt-2 justify-between">
+                        <h3 class="text-xl font-bold">Grapes</h3>
+                        <p class="text-[#EEC044] italic text-x font-bold mr-12">s s s s s</p>
+                    </div>
+                    <p class="text-[#4BAF47]">$100.00</p>
+                </div>
+                <!-- CARD TWO -->
+                <div>
+                    <img class="md:w-[220px] rounded" src="images/artur-rutkowski-GdTLaWamFHw-unsplash.jpg" alt="">
+                    <div class="flex mt-2 justify-between">
+                        <h3 class="text-xl font-bold">Grapes</h3>
+                        <p class="text-[#EEC044] italic text-x font-bold mr-12">s s s s s</p>
+                    </div>
+                    <p class="text-[#4BAF47]">$100.00</p>
+                </div>
+                <!-- CARD THREE -->
+                <div>
+                    <img class="md:w-[220px] rounded" src="images/annie-spratt-R3LcfTvcGWY-unsplash.jpg" alt="">
+                    <div class="flex mt-2 justify-between">
+                        <h3 class="text-xl font-bold">Grapes</h3>
+                        <p class="text-[#EEC044] italic text-x font-bold mr-12">s s s s s</p>
+                    </div>
+                    <p class="text-[#4BAF47]">$100.00</p>
+                </div>
+                <!-- CARD FOUR -->
+                <div>
+                    <img class="md:w-[220px] rounded" src="images/luke-michael-1cWZgnBhZRs-unsplash.jpg" alt="">
+                    <div class="flex mt-2 justify-between">
+                        <h3 class="text-xl font-bold">Grapes</h3>
+                        <p class="text-[#EEC044] italic text-x font-bold mr-12">s s s s s</p>
+                    </div>
+                    <p class="text-[#4BAF47]">$100.00</p>
+                </div>
+            </div>
+        </section>
+        <!-- Quality Products -->
+        <section class="max-w-5xl mx-auto lg:mt-40 mt-10 md:mt-10">
+            <div class="flex flex-col md:flex-row gap-10">
+                <div>
+                    <img class="lg:w-[400px] md:w-[1450px]" src="images/div.elementor-column.png" alt="">
+                </div>
+                <div class="lg:space-y-4 space-y-4 md:space-y-2 lg:w-[500px] md:w-[1000px] md:h-[400px">
+                    <h2 class="text-[#EEC044] italic font-bold">Quality Products</h2>
+                    <p class="text-3xl font-bold">Only Organic Food</p>
+                    <p class="text-[#878680] text-sm">There are many variations of passages of lorem ipsum available but
+                        the
+                        majority have suffered alteration in some form by injected humor or
+                        random word.</p>
+                    <div class="flex gap-4 items-center">
+                        <img src="images/Ic (6).png" alt="">
+                        <div>
+                            <h2 class="text-xl font-bold">Professional Farmers</h2>
+                            <p class="text-[#878680]">There are many variation of passages of lorem ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <img src="images/Ico (7).png" alt="">
+                        <div>
+                            <h2 class="text-xl font-bold">Solution for Farming</h2>
+                            <p class="text-[#878680]">There are many variation of passages of lorem ipsum.</p>
+                        </div>
+                    </div>
+                    <button class="text-white bg-[#4BAF47] py-2 px-4 rounded">Start Shopping Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- Agriculture Products -->
+        <section class="bg-black py-10 mt-28">
+            <div class="max-w-5xl mx-auto">
+                <div
+                    class="grid grid-cols-2 md:text-x lg:text-xl gap-2 p-2 text-sm md:font-bold md:grid-cols-4 lg:grid-cols-4">
+                    <h2 class="text-[#A5A49A]">Agriculture Products</h2>
+                    <h2 class="text-[#A5A49A]">Projects Completed</h2>
+                    <h2 class="text-[#A5A49A]">Satisfied Clients</h2>
+                    <h2 class="text-[#A5A49A]">Experts Farmers</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Our Testimonials -->
+        <section class="mt-28 bg-[#f4f7ed] h-[1250px] md:h-[600px] lg:h-[500px]">
+            <div class="text-center pt-10">
+                <h2 class="text-[#EEC044] italic font-bold">Our Testimonials</h2>
+                <p class="text-3xl font-bold">What They Say</p>
+            </div>
+            <div class="lg:p-20 max-w-5xl mt-10 p-3 mx-auto flex-col md:flex-row flex md:gap-4 ">
+                <div class="relative">
+                    <img class="lg:w-[350px]" src="images/div.content-wrap.png" alt="">
+                    <img class="lg:w-28 mt-2 w-full lg:absolute md:absolute md:right-0 md:w-[150px]  lg:top-5 lg:-left-[18%]"
+                        src="images/div.avatar (1).png" alt="">
+                </div>
+                <div class="relative ml-[10%]">
+                    <img class="lg:w-[320px] mt-2 md:mt-0" src="images/div.content-wrap (1).png" alt="">
+                    <img class="lg:w-28 mt-2 absolute w-full md:w-[150px] lg:top-5 lg:-left-[30%]"
+                        src="images/div.avatar.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- From the Blog -->
+        <section class="mt-10 max-w-5xl mx-auto p-2">
+            <div class="text-center">
+                <h3 class="text-[#EEC044] italic">From the Blog</h3>
+                <p class="text-3xl font-bold">News & Articles</p>305       </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-10">
+                <div class="relative">
+                    <img class="rounded-lg lg:w-[280px]"
+                        src="images/Link - avatar → team-01.webp.png" alt="">
+                    <div
+                        class="bg-white lg:left-[34%] left-20 top-[300px] shadow-2xl absolute px-8 rounded  text-center">
+                        <h3 class="text-xl font-bold">Kevin Smith</h3>
+                        <p class="text-[#878680]">Farmer</p>
+                    </div>
+                    <img class="bg-green-600 rounded w-10 absolute top-[305px] left-14 lg:left-[28%]"
+                        src="images/Icon ss(6).png" alt="">
+                </div>
+                <div class="relative">
+                    <img class="rounded-lg  lg:w-[280px]" src="images/Link - avatar → team-02.webp.png" alt="">
+                    <div
+                        class="bg-white lg:left-[34%] left-20 top-[300px] shadow-2xl absolute px-8 rounded  text-center">
+                        <h3 class="text-xl font-bold">Jessica Brown</h3>
+                        <p class="text-[#878680]">Farmer</p>
+                    </div>
+                    <img class="bg-green-600 rounded w-10 absolute top-[305px] left-14 lg:left-[28%]"
+                        src="images/Icon ss(6).png" alt="">
+                </div>
+                <div class="relative">
+                    <img class="rounded-lg  lg:w-[280px]" src="images/Link - avatar → team-03.webp.png" alt="">
+                    <div
+                        class="bg-white lg:left-[34%] left-20 top-[300px] shadow-2xl absolute px-8 rounded  text-center">
+                        <h3 class="text-xl font-bold">David Martin</h3>
+                        <p class="text-[#878680]">Farmer</p>
+                    </div>
+                    <img class="bg-green-600 rounded w-10 absolute top-[305px] left-14 lg:left-[28%]"
+                        src="images/Icon ss(6).png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section class="max-w-6xl mx-auto my-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                <div>
+                    <img class="w-[200px] rounded" src="images/subodha-karunarathne-PuWCoG8WHok-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[200px] rounded" src="images/melissa-kumaresan-4jMvNGGFVQI-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[200px] rounded" src="images/subodha-karunarathne-PuWCoG8WHok-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[200px] rounded" src="images/melissa-kumaresan-4jMvNGGFVQI-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img class="w-[200px] rounded" src="images/subodha-karunarathne-PuWCoG8WHok-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#24231D] text-white">
+        <div class=" max-w-5xl mx-auto  p-5 lg:p-10 grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-4 ">
+            <div>
+                <img src="images/Link 1.webp.png" alt="">
+                <p class="mt-4 text-[#A5A49A]">There are many variations of passages
+                    of lorem ipsum available, but the
+                    majority suffered.</p>
+                <div class="space-x-2">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div>
+                <p class="text-xl font-bold border-b-2 w-10 border-[#4BAF47] py-2">Explore</p>
+                <div class="flex gap-3 mt-4 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A] hover:underline">About</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A]">Services</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A] hover:underline">Our Projects</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A] hover:underline">Meet the Farmers</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A] hover:underline">Latest News</a>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img src="imagess/pa (6).png" alt="">
+                    <a class="text-[#A5A49A] hover:underline">Contact</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold border-b-2 w-10 border-[#4BAF47] py-2">News</h2>
+                <p class="mt-4">Bringing Food Production Back To Cities</p>
+                <p class="text-[#EEC044]">July 5, 2022</p>
+                <p class="mt-5">The Future of Farming, Smart Irrigation Solutions</p>
+                <p class="text-[#EEC044]">July 5, 2022</p>
+            </div>
+            <div class="space-y-3">
+                <h3 class="text-xl font-bold border-b-2 w-10 border-[#4BAF47] py-2">Contact</h3>
+                <div class="flex gap-2 items-center">
+                    <i class="fa-solid text-[#EEC044] fa-phone"></i>
+                    <p class="text-[#A5A49A]">666 888 0000</p>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class="fa-solid text-[#EEC044] fa-envelope"></i>
+                    <p class="text-[#A5A49A]">needhelp@company.com</p>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class="fa-solid text-[#EEC044] fa-location-crosshairs"></i>
+                    <p class="text-[#A5A49A]">80 broklyn golden street line New York, USA</p>
+                </div>
+                <input type="email" placeholder="Your Email Address" name="forhad" class="py-2 bg-white rounded-l px-2"
+                    id="">
+                <i class="fa-solid text-white bg-[#4BAF47] absolute py-3 px-3 rounded-e fa-location-arrow"></i>
+            </div>
+        </div>
+        <div class="bg-[#1F1E17]">
+            <div class="flex flex-col md:flex-row gap-2 p-2 justify-between max-w-5xl mx-auto mt-10 py-4">
+                <p class="text-[#A5A49A]">© All Copyright 2024 by shawonetc Themes</p>
+                <div class="flex gap-2 ">
+                    <p class="text-[#A5A49A] border-e-2 border-[#A5A49A] px-2">Terms of Use</p>
+                    <p class="text-[#A5A49A]">Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
